@@ -1,5 +1,7 @@
 package fr.hamtec
 
+import fr.hamtec.odrSup.*
+
 fun main() {
-    println("Hello World!")
+    fistOdrSup()
 }
