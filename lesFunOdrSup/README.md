@@ -17,3 +17,9 @@ Troisième étape lambda:
 ```
 val hello = { println("Hello!") }
 ```
+Faire une boucle sur une liste avec forEach()
+```
+forEach(action: (T) -> Unit)
+```
+Le lambda est exécuté pour le premier élément, puis pour le deuxième, et ainsi de suite pour chaque élément de la collection.<br>
+T correspond au type de données que contient la collection.
